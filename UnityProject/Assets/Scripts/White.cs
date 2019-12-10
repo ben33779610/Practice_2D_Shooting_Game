@@ -20,6 +20,7 @@ public class White : MonoBehaviour
 		{
 			Quaternion rot = new Quaternion(0, 0, 0, 0);
 			Instantiate(bullet, shootpos.position, rot);
+			aud.PlayOneShot(audc);
 		}
 	}
 

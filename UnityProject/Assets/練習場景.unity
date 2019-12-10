@@ -479,6 +479,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad78aaa5e4892c34c960add0a108dafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hpreg: {fileID: 235324645}
+  Hp: 0
+  aud: {fileID: 535656286}
+  audc: {fileID: 8300000, guid: 0bda53c42232dad41a2a79b16daf8b10, type: 3}
 --- !u!82 &535656286
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1199,8 +1203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 4188934032714802657, guid: 8058be627f9654545a83c5749037a195, type: 3}
   shootpos: {fileID: 1212127335}
-  aud: {fileID: 0}
-  audc: {fileID: 0}
+  aud: {fileID: 2129298586}
+  audc: {fileID: 8300000, guid: e9552f51221d8f04999e786243374ffe, type: 3}
   speed: 30
 --- !u!82 &2129298586
 AudioSource:
